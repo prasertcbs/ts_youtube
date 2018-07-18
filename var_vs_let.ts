@@ -21,7 +21,7 @@ function demo(): void {
 // This code is from typescript site
 function ex_from_typescript(): void {
     let pets = new Set(["Fish", "Cat", "Dog", "Hamster"]);
-    pets["species"] = "mammals";
+    // pets["species"] = "mammals";
 
     for (let pet in pets) {
         console.log(pet); // "species"

@@ -13,8 +13,11 @@ function demo() {
     // console.log(`j =  ${j}`);
     console.log('------------------');
 }
+// tsc -t es6 
+// Set object
+// This code is from typescript site
 function ex_from_typescript() {
-    let pets = new Set(["Cat", "Dog", "Hamster"]);
+    let pets = new Set(["Fish", "Cat", "Dog", "Hamster"]);
     pets["species"] = "mammals";
     for (let pet in pets) {
         console.log(pet); // "species"
