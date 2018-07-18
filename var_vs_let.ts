@@ -18,6 +18,7 @@ function demo(): void {
 
 // tsc -t es6 
 // Set object
+// This code is from typescript site
 function ex_from_typescript(): void {
     let pets = new Set(["Fish", "Cat", "Dog", "Hamster"]);
     pets["species"] = "mammals";
