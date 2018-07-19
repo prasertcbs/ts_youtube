@@ -1,6 +1,6 @@
 // https://www.npmjs.com/package/image-downloader
 
-// npm install --save image-downloader
+// npm install image-downloader
 // npm install @types/node --save-dev
 const download = require('image-downloader');
 const options = {
